@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.acess{
+    background-color: #FFB800;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acess-1, .acess-2,.acess-3,.acess-4,.acess-5,.acess-6,.acess-7{
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #791010;
+}
+
+img{
+    width: 80px;
+}
+
+.chevron-left{
+    width: 50px;
+}
