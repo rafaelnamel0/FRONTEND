@@ -21,7 +21,9 @@ body{
     justify-content: center;
 }
 
-.acess-1, .acess-2,.acess-3,.acess-4,.acess-5,.acess-6,.acess-7{
+.card{
+    background-color: #F39423;
+    font-weight: bold;
     padding: 30px;
     font-size: 20px;
     display: flex;
@@ -29,15 +31,13 @@ body{
     justify-content: center;
 }
 
-img{
-    width: 80px;
-}
-
-.chevron-left{
-    width: 50px;
-}
-
-a{
-    color: black;
-    text-decoration: none;
+.food{
+    padding: 60px;
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #D0DFD6;
 }
