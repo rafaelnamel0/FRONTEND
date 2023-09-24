@@ -1,43 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
 body{
     font-family: 'Montserrat', sans-serif;
-    
-
 }
 
-.acess{
-    background-color: #FFB800;
+.login{
+    font-size: 25px;
     font-weight: bold;
-    padding: 30px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.acess-1, .acess-2,.acess-3,.acess-4,.acess-5,.acess-6,.acess-7{
-    padding: 30px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.form-group{
+    text-align: center;
 }
 
-img{
-    width: 80px;
+#usuario, #senha{
+    background-color: #FAFAFA;
+    border: none;
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
 }
 
-.chevron-left{
-    width: 50px;
+#lembre{
+    accent-color: #FFB105;
 }
 
-a{
-    color: black;
+.entrar{
+    background-color: #FFB105;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+}
+
+.oth{
+    color: #8A8A8A;
     text-decoration: none;
+}
+
+.oth a{
+    color: #8A8A8A;
 }
