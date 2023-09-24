@@ -75,6 +75,8 @@ input{
     position: absolute;
     bottom: 0;
     width: calc(100vw - 20px);
+    cursor: pointer;
+    user-select: none;
 }
 
 .form-group p{
